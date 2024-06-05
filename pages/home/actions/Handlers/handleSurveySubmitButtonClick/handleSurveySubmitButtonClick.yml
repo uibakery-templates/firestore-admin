@@ -1,0 +1,41 @@
+id: '17164576474640.7874358919078295'
+kind: workflow
+name: handleSurveySubmitButtonClick
+nameConfigured: true
+steps:
+  - id: '17164576520980.4793074686967693'
+    type: customAsyncCode
+    name: code
+    params:
+      - type: asyncCode
+        value: ./code.js
+        valueType: interpolatedValue
+        interpolationType: code
+    level: 0
+    fallthroughError: false
+    isChanged: true
+    nameConfigured: true
+mode: manual
+modeConfigured: false
+parentPageId: '1'
+parentId: '17164566311960.42579518529573446'
+config:
+  shouldConfirm: false
+  confirmMessage: >-
+    Are you sure you'd like to proceed with
+    "{{actions.handleSurveySubmitButtonClick.name}}"?
+  showSuccessToast: false
+  successToast: >-
+    Action "{{actions.handleSurveySubmitButtonClick.name}}" successfully
+    executed
+  successToastDuration: '3000'
+  successToastHideByClick: false
+  showErrorToast: true
+  errorToast: Action "{{actions.handleSurveySubmitButtonClick.name}}" has failed
+  errorToastDuration: '3000'
+  errorToastHideByClick: false
+  delay: '0'
+  runWhenFirstReferenced: true
+  preserveStateOnPageChange: false
+selected: true
+configured: true

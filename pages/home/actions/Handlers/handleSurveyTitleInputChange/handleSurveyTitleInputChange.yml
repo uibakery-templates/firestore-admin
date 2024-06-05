@@ -1,0 +1,38 @@
+id: '17164562869030.4632744654278218'
+kind: workflow
+name: handleSurveyTitleInputChange
+nameConfigured: true
+steps:
+  - id: '17164562934360.0583141072761999'
+    type: customAsyncCode
+    name: code
+    params:
+      - type: asyncCode
+        value: ./code.js
+        valueType: interpolatedValue
+        interpolationType: code
+    level: 0
+    fallthroughError: false
+    isChanged: true
+mode: manual
+modeConfigured: true
+parentPageId: '1'
+parentId: '17164566311960.42579518529573446'
+config:
+  shouldConfirm: false
+  confirmMessage: >-
+    Are you sure you'd like to proceed with
+    "{{actions.handleSurveyTitleInputChange.name}}"?
+  showSuccessToast: false
+  successToast: Action "{{actions.handleSurveyTitleInputChange.name}}" successfully executed
+  successToastDuration: '3000'
+  successToastHideByClick: false
+  showErrorToast: true
+  errorToast: Action "{{actions.handleSurveyTitleInputChange.name}}" has failed
+  errorToastDuration: '3000'
+  errorToastHideByClick: false
+  delay: '0'
+  runWhenFirstReferenced: true
+  preserveStateOnPageChange: false
+selected: true
+configured: true

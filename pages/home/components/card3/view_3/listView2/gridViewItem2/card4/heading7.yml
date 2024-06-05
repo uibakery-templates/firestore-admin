@@ -1,0 +1,28 @@
+id: '17164545834310.038414754531287176'
+definitionId: heading
+styles:
+  xl:
+    fontSize:
+      customValue: 14
+      customUnit: px
+      themeDefaultOverridePropertyKey: baseTextFontSize
+    gridItem:
+      x: 0
+      y: 0
+      w: 24
+      h: 9
+properties:
+  name: heading7
+  text: '{{item.text}}'
+  verticalAlignment: middle
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  textStyle:
+    transform: none
+    styles:
+      - bold
+parentSlotId: '17164545834310.993420218796367'
+index: 0
+actions: {}
+slots: []

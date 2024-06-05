@@ -1,0 +1,19 @@
+id: '17162760705650.06316403483122146'
+name: content
+children:
+  - id: '17162760705660.7854214199508163'
+    definitionId: layoutHeader
+    parentSlotId: '17162760705650.06316403483122146'
+    styles: {}
+    properties:
+      name: layoutHeader
+      __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+        - xl
+        - xs
+    index: 0
+    slots:
+      - id: '17162760705660.6917813995989681'
+        name: content
+        children:
+          - components/horizontalMenu.yml
+          - components/avatar.yml

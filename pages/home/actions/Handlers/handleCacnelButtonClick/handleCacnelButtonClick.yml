@@ -1,0 +1,38 @@
+id: '17164556661330.008873915109695485'
+kind: workflow
+name: handleCacnelButtonClick
+nameConfigured: true
+steps:
+  - id: '17164556697470.17914805427041625'
+    type: customAsyncCode
+    name: code
+    params:
+      - type: asyncCode
+        value: ./code.js
+        valueType: interpolatedValue
+        interpolationType: code
+    level: 0
+    fallthroughError: false
+    isChanged: true
+mode: manual
+modeConfigured: true
+parentPageId: '1'
+config:
+  shouldConfirm: false
+  confirmMessage: >-
+    Are you sure you'd like to proceed with
+    "{{actions.handleCacnelButtonClick.name}}"?
+  showSuccessToast: false
+  successToast: Action "{{actions.handleCacnelButtonClick.name}}" successfully executed
+  successToastDuration: '3000'
+  successToastHideByClick: false
+  showErrorToast: true
+  errorToast: Action "{{actions.handleCacnelButtonClick.name}}" has failed
+  errorToastDuration: '3000'
+  errorToastHideByClick: false
+  delay: '0'
+  runWhenFirstReferenced: true
+  preserveStateOnPageChange: false
+selected: true
+configured: true
+parentId: '17164566311960.42579518529573446'

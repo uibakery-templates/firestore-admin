@@ -1,0 +1,55 @@
+id: '17164560486030.5275483683546596'
+definitionId: stringEdit
+parentSlotId: '17164492672710.05155402217259386'
+styles:
+  xl:
+    gridItem:
+      x: 0
+      y: 12
+      w: 24
+      h: 9
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 36
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+  xs:
+    gridItem:
+      x: 0
+      y: 9
+      w: 24
+      h: 9
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 36
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+properties:
+  name: input
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  labelConfig:
+    text: ''
+    position: horizontal
+    align: left
+  placeholder: Survey name
+actions:
+  valueChange:
+    - action: '17164562869030.4632744654278218'
+      paramCode: ''
+      index: 0
+  enter:
+    - action: '17164562869030.4632744654278218'
+      paramCode: ''
+      blockPageLoad: false
+      preventDefault: false
+      index: 1
+  focusEvent: []
+  blurEvent: []
+  init: []
+slots: []
